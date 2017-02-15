@@ -42,8 +42,8 @@ module.exports.connections = {
   ***************************************************************************/
   localMysql: {
     adapter: 'sails-mysql',
-    host: 'localhost',
-    user: 'root', //optional
+    host: 'api.coloso.net',
+    user: 'crowd', //optional
     password: process.env.MYSQL_ROOT_PASSWORD, //optional
     database: 'crowd' //optional
   },
