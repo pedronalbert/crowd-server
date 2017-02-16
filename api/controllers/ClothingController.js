@@ -1,4 +1,9 @@
 module.exports = {
+  index: function (req, res) {
+    Clothing.find()
+      .then(answers => res.json(answers));
+  },
+
   find: function (req, res) {
     var url = req.body.url;
 

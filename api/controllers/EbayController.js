@@ -1,4 +1,9 @@
 module.exports = {
+  index(req, res) {
+    Ebay.find()
+      .then(answers => res.json(answers));
+  },
+
   find: function (req, res) {
     var title = req.body.title;
 
