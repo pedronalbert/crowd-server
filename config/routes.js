@@ -11,4 +11,8 @@ module.exports.routes = {
   //Clothing
   'get /clothing/': 'ClothingController.index',
   'post /clothing/actions/find': 'ClothingController.find',
+
+  //Moderate
+  'get /moderate/': 'ModerateController.index',
+  'post /moderate/actions/find': 'ModerateController.find',
 };
