@@ -1,8 +1,8 @@
 {
   "name": "crowd",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "1.0.2",
+  "description": "Crowd server",
   "keywords": [],
   "dependencies": {
     "include-all": "^1.0.0",
@@ -21,6 +21,6 @@
     "type": "git",
     "url": "git://github.com/anonymous node/sails user/crowd.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "pedron.albert@gmail.com",
   "license": ""
 }
