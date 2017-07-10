@@ -50,7 +50,7 @@ module.exports.connections = {
 
   awsMysql: {
     adapter: 'sails-mysql',
-    host: '35.162.216.24',
+    host: process.env.MYSQL_HOST,
     user: 'crowd', //optional
     password: process.env.MYSQL_PASSWORD, //optional
     database: 'crowd' //optional
